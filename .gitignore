@@ -1,0 +1,45 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.p~
+*.swp
+
+# === Environnement virtuel ===
+env/
+.venv/
+ENV/
+env.bak/
+venv/
+
+# === Django ===
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === pip ===
+pip-log.txt
+
+# === Test coverage ===
+htmlcov/
+.coverage
+.tox/
+
+# === Migrations (optionnel) ===
+# migrations/    ← seulement si je ne veux pas versionner les fichiers auto-générés
